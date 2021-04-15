@@ -5,7 +5,7 @@ window.addEventListener("load", function () {
           console.log(data);       
            document.getElementById("noticia").innerHTML = data.map(
             (e) => `
-            <h3>${e.titulo}</h3>
+            <h3>${e.titulo}-${e.categoria}-${e.fecha}</h3>
             <p class="border">
               ${e.descripcion}
               <a href="http://">Ver mas.</a>

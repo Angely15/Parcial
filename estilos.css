@@ -9,3 +9,14 @@
       margin-left: 40px;
   }
   
+  .noticia{
+    padding: 20px;
+    padding-bottom: 50px;
+    margin: 15px;
+}
+
+.line{
+    margin: 5px;
+    width: 200px;
+    height: 1px;
+}
